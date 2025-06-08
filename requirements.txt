@@ -1,0 +1,7 @@
+fastmcp>=2.0.0
+gradio>=3.30
+ollama>=0.5.0
+llama-index-llms-ollama>=0.6.1
+llama-index-tools-mcp>=0.2.3
+llama-index>=0.12.39
+
