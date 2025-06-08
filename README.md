@@ -177,6 +177,10 @@ The entire application is designed to run inside a dedicated Python virtual envi
 ![image](https://github.com/user-attachments/assets/3691a174-c91a-4478-bceb-ac75a5fc57ae)
 
 
+7. **Check sqlitebrowser demo.db**
+
+![image](https://github.com/user-attachments/assets/67e51b2b-93a6-4f00-b69d-85690041cdc6)
+
 ---
 
 **Tip:**
