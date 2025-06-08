@@ -138,8 +138,8 @@ The entire application is designed to run inside a dedicated Python virtual envi
 1. **Create and activate a virtual environment:**
 
    ```bash
-   python3 -m venv mcpollama
-   source mcpollama/bin/activate
+   python3 -m venv final1
+   source final1/bin/activate
    ```
 
 2. **Install Python requirements:**
@@ -154,6 +154,9 @@ The entire application is designed to run inside a dedicated Python virtual envi
    python server.py
    ```
 
+   ![image](https://github.com/user-attachments/assets/7f0b57d7-d839-4037-98c0-d1b2aaf5eb15)
+
+
 4. **Start Ollama (in a separate terminal, if not already running):**
 
    ```bash
@@ -165,9 +168,13 @@ The entire application is designed to run inside a dedicated Python virtual envi
    ```bash
    python client.py
    ```
+![image](https://github.com/user-attachments/assets/a27971bd-4d96-41f8-b9ff-ea921defe0ba)
 
 6. **Open the Gradio web interface**
    Navigate to the link shown in your terminal (typically [http://127.0.0.1:7860](http://127.0.0.1:7860)).
+
+![image](https://github.com/user-attachments/assets/3691a174-c91a-4478-bceb-ac75a5fc57ae)
+
 
 ---
 
