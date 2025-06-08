@@ -62,7 +62,7 @@ This project demonstrates how to build a **privacy-aware, locally hosted LLM age
 
 **Python Environment**  
 - Python Version: 3.11.9  
-- Virtual Environment: `python -m venv mcpollama`
+- Virtual Environment: `python -m venv final1`
 
 **Misc**  
 - Virtualization Capabilities: Enabled (VT-x)  
