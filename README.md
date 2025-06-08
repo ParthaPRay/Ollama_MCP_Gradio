@@ -1,5 +1,3 @@
----
-
 # 🧠 Gradio + Ollama + MCP: Privacy-Aware Local LLM Agent Demo
 
 ## Overview
