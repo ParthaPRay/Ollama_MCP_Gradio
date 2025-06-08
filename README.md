@@ -29,24 +29,7 @@ This project demonstrates how to build a **privacy-aware, locally hosted LLM age
 * **`server.py`** — launches a FastMCP MCP server exposing database tools over HTTP.
 * **`client.py`** — runs a Gradio chat UI and connects a local LLM (via Ollama) to the MCP tools for tool-augmented responses.
 
-```mermaid
-flowchart TD
-    A[Start: Activate Python venv "mcpollama"] --> B[Install requirements.txt]
-    B --> C[Start Ollama Server: ollama serve]
-    C --> D[Pull Model: granite3.1-moe]
-    D --> E[Start MCP Server: python server.py]
-    E --> F[Start Gradio Client: python client.py]
-    F --> G[Open Gradio UI in Browser]
-    G --> H[User Interacts with Chatbot]
-    H --> I[Chatbot Calls MCP Tools via Ollama LLM]
-    I --> J[SQLite DB Read/Write via MCP Tool]
-    J --> K[Response Displayed in Gradio UI]
-
-    style A fill:#e6f7ff,stroke:#4a90e2,stroke-width:2px
-    style G fill:#fffbe6,stroke:#f5a623,stroke-width:2px
-    style K fill:#e6ffe6,stroke:#27ae60,stroke-width:2px
-
-
+---
 ### High-level Flow
 
 1. **User interacts** via Gradio UI (`client.py`).
