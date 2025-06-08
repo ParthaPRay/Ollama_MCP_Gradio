@@ -124,10 +124,6 @@ def handle_message(...):
     ...
 ```
 
----
-Certainly! Here’s a **revised markdown section** reflecting your full Python virtual environment workflow, assuming Ollama and the Granite model are already set up.
-
----
 
 ## How to Run Locally
 
