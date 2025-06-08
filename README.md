@@ -149,6 +149,9 @@ The entire application is designed to run inside a dedicated Python virtual envi
    pip install -r requirements.txt
    ```
 
+ ![image](https://github.com/user-attachments/assets/356acaa6-f804-4dab-9b76-d90ad856c6a0)
+
+
 3. **Start the MCP server (in terminal 1):**
 
    ```bash
