@@ -125,35 +125,65 @@ def handle_message(...):
 ```
 
 ---
+Certainly! Here’s a **revised markdown section** reflecting your full Python virtual environment workflow, assuming Ollama and the Granite model are already set up.
+
+---
 
 ## How to Run Locally
 
-1. **Install requirements:**
+The entire application is designed to run inside a dedicated Python virtual environment (`mcpollama`).
+**Assumptions:**
+
+* Ollama is already installed (using `curl -fsSL https://ollama.com/install.sh | sh`).
+* The model `granite3.1-moe` is already pulled (`ollama pull granite3.1-moe`).
+
+### Step-by-Step Instructions
+
+1. **Create and activate a virtual environment:**
+
+   ```bash
+   python3 -m venv mcpollama
+   source mcpollama/bin/activate
+   ```
+
+2. **Install Python requirements:**
 
    ```bash
    pip install -r requirements.txt
    ```
 
-2. **Start the MCP server (terminal 1):**
+3. **Start the MCP server (in terminal 1):**
 
    ```bash
    python server.py
    ```
 
-3. **Start Ollama and pull the desired model:**
+4. **Start Ollama (in a separate terminal, if not already running):**
 
    ```bash
    ollama serve
-   ollama pull granite3.1-moe
    ```
 
-4. **Launch the Gradio chat UI (terminal 2):**
+5. **Launch the Gradio chat UI (in terminal 2):**
 
    ```bash
    python client.py
    ```
 
-5. **Open the Gradio link** printed in your terminal (`http://127.0.0.1:7860` by default).
+6. **Open the Gradio web interface**
+   Navigate to the link shown in your terminal (typically [http://127.0.0.1:7860](http://127.0.0.1:7860)).
+
+---
+
+**Tip:**
+Keep your `mcpollama` virtual environment activated whenever running these scripts to avoid conflicts with system Python packages.
+If you need to (re)pull the Ollama model:
+
+```bash
+ollama pull granite3.1-moe
+```
+
+
 
 ---
 
