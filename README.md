@@ -218,7 +218,7 @@ ollama pull granite3.1-moe
 
 ## License
 
-Apache 2.0
+Apache-2.0
 
 ---
 
