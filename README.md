@@ -38,7 +38,38 @@ This project demonstrates how to build a **privacy-aware, locally hosted LLM age
 4. **All logic and data** remain private and local.
 
 ---
+## 🖥️ System Configuration
 
+**Operating System**  
+- Ubuntu 24.04 LTS  
+- Kernel: `6.11.0-25-generic`  
+- Architecture: `x86_64` (64-bit)
+
+**Processor (CPU)**  
+- Model: 13th Gen Intel® Core™ i9-13950HX  
+- Cores: 24 cores / 32 threads  
+- Max Frequency: 5.50 GHz  
+- Virtualization: VT-x supported  
+- L1 Cache: 896 KiB (Data), 1.3 MiB (Instruction)  
+- L2 Cache: 32 MiB  
+- L3 Cache: 36 MiB  
+
+**Graphics (GPU)**  
+- NVIDIA RTX 5000 Ada Generation  
+- VRAM: 16 GB  
+- Driver Version: 550.144.03  
+- CUDA Version: 12.4  
+
+**Python Environment**  
+- Python Version: 3.11.9  
+- Virtual Environment: `python -m venv mcpollama`
+
+**Misc**  
+- Virtualization Capabilities: Enabled (VT-x)  
+- NUMA Nodes: 1 (all CPUs in node0: 0–31)  
+
+
+---
 ## server.py — MCP Server for SQLite
 
 **Purpose:**
